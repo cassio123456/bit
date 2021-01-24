@@ -1,0 +1,126 @@
+2021-Jan-24 09:54:34.912311 INFO [simplewallet] Bytevelin wallet v0.0.1.1()
+2021-Jan-24 09:54:37.233358 ERROR [simplewallet] Error: failed to load wallet: wallet file 'name_of_my_wallet.bin.wallet' is not found
+2021-Jan-24 09:54:37.233541 ERROR [simplewallet] Failed to initialize wallet
+2021-Jan-24 09:54:37.234678 ERROR [simplewallet] Error: wallet failed to connect to daemon (http://localhost:40999).
+2021-Jan-24 10:13:47.969040 INFO [simplewallet] Bytevelin wallet v0.0.1.1()
+2021-Jan-24 10:13:50.430854 ERROR [simplewallet] Error: failed to load wallet: wallet file 'name_of_my_wallet.bin.wallet' is not found
+2021-Jan-24 10:13:50.431025 ERROR [simplewallet] Failed to initialize wallet
+2021-Jan-24 10:13:50.432048 ERROR [simplewallet] Error: wallet failed to connect to daemon (http://localhost:40999).
+2021-Jan-24 10:15:38.310032 INFO [simplewallet] Bytevelin wallet v0.0.1.1()
+2021-Jan-24 10:15:40.372108 ERROR [simplewallet] Error: failed to load wallet: wallet file 'name_of_my_wallet.bin.wallet' is not found
+2021-Jan-24 10:15:40.372279 ERROR [simplewallet] Failed to initialize wallet
+2021-Jan-24 10:15:40.373311 ERROR [simplewallet] Error: wallet failed to connect to daemon (http://localhost:40999).
+2021-Jan-24 10:20:37.979958 INFO [simplewallet] Bytevelin wallet v0.0.1.1()
+2021-Jan-24 10:20:49.107896 ERROR [simplewallet] Error: failed to load wallet: wallet file 'name_of_my_wallet.bin.wallet' is not found
+2021-Jan-24 10:20:49.107996 ERROR [simplewallet] Failed to initialize wallet
+2021-Jan-24 10:20:49.109072 ERROR [simplewallet] Error: wallet failed to connect to daemon (http://localhost:40999).
+2021-Jan-24 10:21:37.764026 INFO [simplewallet] Bytevelin wallet v0.0.1.1()
+2021-Jan-24 10:21:37.793690 INFO [simplewallet] Generated new wallet: bte1cdsvXB9R8MT74VaCC6Atkzb6wuf2YfCxskobWDNW5Pf24hbrVmNaERSHVTMJUJ4M1W1zWw72NcMbAjAB4yib4xzYEdKPSD
+2021-Jan-24 10:21:37.793690 INFO [simplewallet] view key: bb6ab924756f4be43f5f5657d4f6d53314b4d9c099164a540eededbe8c067c05
+2021-Jan-24 10:21:37.793944 INFO [simplewallet] **********************************************************************
+Your wallet has been generated.
+Use "help" command to see the list of available commands.
+Always use "exit" command when closing simplewallet to save
+current session's state. Otherwise, you will possibly need to synchronize 
+your wallet again. Your wallet key is NOT under risk anyway.
+**********************************************************************
+2021-Jan-24 10:22:26.854738 INFO [simplewallet] Commands: 
+  address              Show current wallet public address
+  balance              Show current wallet balance
+  bc_height            Show blockchain height
+  exit                 Close wallet
+  help                 Show this help
+  incoming_transfers   Show incoming transfers
+  list_transfers       Show all known transfers
+  payments             payments <payment_id_1> [<payment_id_2> ... <payment_id_N>] - Show payments <payment_id_1>, ... <payment_id_N>
+  reset                Discard cache data and start synchronizing from the start
+  save                 Save wallet synchronized data
+  set_log              set_log <level> - Change current log level, <level> is a number 0-4
+  start_mining         start_mining [<number_of_threads>] - Start mining in daemon
+  stop_mining          Stop mining in daemon
+  transfer             transfer <mixin_count> <addr_1> <amount_1> [<addr_2> <amount_2> ... <addr_N> <amount_N>] [-p payment_id] [-f fee] - Transfer <amount_1>,... <amount_N> to <address_1>,... <address_N>, respectively. <mixin_count> is the number of transactions yours is indistinguishable from (from 0 to maximum available)
+  
+
+2021-Jan-24 10:55:10.661522 INFO [simplewallet] Wallet closed
+2021-Jan-24 10:55:42.881861 INFO [simplewallet] Bytevelin wallet v0.0.1.1()
+2021-Jan-24 10:55:45.992203 INFO [simplewallet] Generated new wallet: bte1gos81cUEsPSHURXXkn3UXbCi5yiB6AN1ciLLmE8c2KGCvph1h6W1BBK2cAUsRqYAZNcLjrucNWaDr7C1JvzY9g1BbQBNRC
+2021-Jan-24 10:55:45.992203 INFO [simplewallet] view key: 04e4e3779979da29af4021c547283925670c96002aa727a5464aa39ae2237901
+2021-Jan-24 10:55:45.992471 INFO [simplewallet] **********************************************************************
+Your wallet has been generated.
+Use "help" command to see the list of available commands.
+Always use "exit" command when closing simplewallet to save
+current session's state. Otherwise, you will possibly need to synchronize 
+your wallet again. Your wallet key is NOT under risk anyway.
+**********************************************************************
+2021-Jan-24 10:56:40.192527 INFO [simplewallet] Wallet closed
+2021-Jan-24 10:56:56.610765 INFO [simplewallet] Bytevelin wallet v0.0.1.1()
+2021-Jan-24 10:56:59.016052 INFO [simplewallet] Loading wallet...
+2021-Jan-24 10:56:59.043405 INFO [simplewallet] Opened wallet: bte1gos81cUEsPSHURXXkn3UXbCi5yiB6AN1ciLLmE8c2KGCvph1h6W1BBK2cAUsRqYAZNcLjrucNWaDr7C1JvzY9g1BbQBNRC
+2021-Jan-24 10:56:59.043585 INFO [simplewallet] **********************************************************************
+Use "help" command to see the list of available commands.
+**********************************************************************
+2021-Jan-24 10:57:13.024571 INFO [simplewallet] Commands: 
+  address              Show current wallet public address
+  balance              Show current wallet balance
+  bc_height            Show blockchain height
+  exit                 Close wallet
+  help                 Show this help
+  incoming_transfers   Show incoming transfers
+  list_transfers       Show all known transfers
+  payments             payments <payment_id_1> [<payment_id_2> ... <payment_id_N>] - Show payments <payment_id_1>, ... <payment_id_N>
+  reset                Discard cache data and start synchronizing from the start
+  save                 Save wallet synchronized data
+  set_log              set_log <level> - Change current log level, <level> is a number 0-4
+  start_mining         start_mining [<number_of_threads>] - Start mining in daemon
+  stop_mining          Stop mining in daemon
+  transfer             transfer <mixin_count> <addr_1> <amount_1> [<addr_2> <amount_2> ... <addr_N> <amount_N>] [-p payment_id] [-f fee] - Transfer <amount_1>,... <amount_N> to <address_1>,... <address_N>, respectively. <mixin_count> is the number of transactions yours is indistinguishable from (from 0 to maximum available)
+  
+
+2021-Jan-24 10:59:22.368675 INFO [simplewallet] Bytevelin wallet v0.0.1.1()
+2021-Jan-24 10:59:24.118848 INFO [simplewallet] Loading wallet...
+2021-Jan-24 10:59:24.119602 ERROR [simplewallet] Error: wallet failed to connect to daemon (http://localhost:40999).
+2021-Jan-24 10:59:24.145532 INFO [simplewallet] Opened wallet: bte1gos81cUEsPSHURXXkn3UXbCi5yiB6AN1ciLLmE8c2KGCvph1h6W1BBK2cAUsRqYAZNcLjrucNWaDr7C1JvzY9g1BbQBNRC
+2021-Jan-24 10:59:24.145682 INFO [simplewallet] **********************************************************************
+Use "help" command to see the list of available commands.
+**********************************************************************
+2021-Jan-24 10:59:43.778249 INFO [simplewallet] Wallet closed
+2021-Jan-24 10:59:46.233799 INFO [simplewallet] Bytevelin wallet v0.0.1.1()
+2021-Jan-24 10:59:48.055874 INFO [simplewallet] Loading wallet...
+2021-Jan-24 10:59:48.056660 ERROR [simplewallet] Error: wallet failed to connect to daemon (http://localhost:40999).
+2021-Jan-24 10:59:48.082605 INFO [simplewallet] Opened wallet: bte1gos81cUEsPSHURXXkn3UXbCi5yiB6AN1ciLLmE8c2KGCvph1h6W1BBK2cAUsRqYAZNcLjrucNWaDr7C1JvzY9g1BbQBNRC
+2021-Jan-24 10:59:48.082760 INFO [simplewallet] **********************************************************************
+Use "help" command to see the list of available commands.
+**********************************************************************
+2021-Jan-24 10:59:55.570601 INFO [simplewallet] Wallet closed
+2021-Jan-24 11:05:36.141447 INFO [simplewallet] Bytevelin wallet v0.0.1.1()
+2021-Jan-24 11:05:38.120925 INFO [simplewallet] Loading wallet...
+2021-Jan-24 11:05:38.150019 INFO [simplewallet] Opened wallet: bte1gos81cUEsPSHURXXkn3UXbCi5yiB6AN1ciLLmE8c2KGCvph1h6W1BBK2cAUsRqYAZNcLjrucNWaDr7C1JvzY9g1BbQBNRC
+2021-Jan-24 11:05:38.150166 INFO [simplewallet] **********************************************************************
+Use "help" command to see the list of available commands.
+**********************************************************************
+2021-Jan-24 11:05:45.929157 INFO [simplewallet] Commands: 
+  address              Show current wallet public address
+  balance              Show current wallet balance
+  bc_height            Show blockchain height
+  exit                 Close wallet
+  help                 Show this help
+  incoming_transfers   Show incoming transfers
+  list_transfers       Show all known transfers
+  payments             payments <payment_id_1> [<payment_id_2> ... <payment_id_N>] - Show payments <payment_id_1>, ... <payment_id_N>
+  reset                Discard cache data and start synchronizing from the start
+  save                 Save wallet synchronized data
+  set_log              set_log <level> - Change current log level, <level> is a number 0-4
+  start_mining         start_mining [<number_of_threads>] - Start mining in daemon
+  stop_mining          Stop mining in daemon
+  transfer             transfer <mixin_count> <addr_1> <amount_1> [<addr_2> <amount_2> ... <addr_N> <amount_N>] [-p payment_id] [-f fee] - Transfer <amount_1>,... <amount_N> to <address_1>,... <address_N>, respectively. <mixin_count> is the number of transactions yours is indistinguishable from (from 0 to maximum available)
+  
+
+2021-Jan-24 11:05:53.329514 INFO [simplewallet] available balance: 0.00000000, locked amount: 0.00000000
+2021-Jan-24 11:08:58.143372 ERROR [simplewallet] Error: wallet failed to connect to daemon (http://localhost:40999).
+2021-Jan-24 11:10:08.151005 INFO [simplewallet] Wallet connected to daemon.
+2021-Jan-24 11:37:28.340230 INFO [simplewallet] Height 1, transaction c94024d056e5bf0a1226961027dff2456c64607b9e6e4c1a87bb32209bb5a54e, received 80.10833698
+2021-Jan-24 11:37:28.340443 INFO [simplewallet] Height 2, transaction 9720f45b29924bab0b5515cff88c4177700d267627626f18afbead7a7799c83a, received 80.10803139
+2021-Jan-24 11:37:33.335289 INFO [simplewallet] Height 3, transaction a82cca98abb612f20fcc89b53251389d7fbafd8ab718ba65a2387ddedc1de6da, received 80.10772581
+2021-Jan-24 11:37:43.336386 INFO [simplewallet] Height 4, transaction 75092fe1ef68d3bcaae8ad196336fba0e26e6db713f49f3c4ebf6eaae95aeda8, received 80.10742022
+2021-Jan-24 11:43:18.367577 ERROR [simplewallet] Error: wallet failed to connect to daemon (http://localhost:40999).
+2021-Jan-24 11:44:23.374646 INFO [simplewallet] Wallet connected to daemon.
